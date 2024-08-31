@@ -196,7 +196,7 @@ client.placeholder      #2c2c2c  #2c2c2c  #d8dee9   #2c2c2c    #2c2c2c
 client.background       #0c0c16
 
 # mouse
-exec_always xinput set-prop 8 "libinput Accel Profile Enabled" 0 1 0
+xinput set-prop "Glorious Model I" "libinput Accel Profile Enabled" 0 1 0
 
 # borders + gaps
 for_window [class="^.*"] border pixel 0
